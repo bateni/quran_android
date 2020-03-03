@@ -112,7 +112,7 @@ public class QuranUtils {
 
     if (change) {
       numberFormat = isArabicNames ?
-          DecimalFormat.getIntegerInstance(new Locale("ar")) :
+          DecimalFormat.getIntegerInstance(new Locale("fa")) :
           DecimalFormat.getIntegerInstance(locale);
       lastLocale = locale;
       isArabicFormatter = isArabicNames;

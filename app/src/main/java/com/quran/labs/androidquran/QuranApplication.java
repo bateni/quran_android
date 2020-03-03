@@ -56,11 +56,11 @@ public class QuranApplication extends MultiDexApplication {
   }
 
   public void refreshLocale(@NonNull Context context, boolean force) {
-    final String language = QuranSettings.getInstance(this).isArabicNames() ? "ar" : null;
+    final String language = QuranSettings.getInstance(this).isArabicNames() ? "fa" : null;
 
     final Locale locale;
-    if ("ar".equals(language)) {
-      locale = new Locale("ar");
+    if ("ar".equals(language) || "fa".equals(language)) {
+      locale = new Locale(language);
     } else if (force) {
       // get the system locale (since we overwrote the default locale)
       locale = Resources.getSystem().getConfiguration().locale;
