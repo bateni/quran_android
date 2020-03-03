@@ -46,8 +46,8 @@ import timber.log.Timber;
 
 @Singleton
 public class TranslationManagerPresenter implements Presenter<TranslationManagerActivity> {
-  private static final String WEB_SERVICE_ENDPOINT = "data/translations.php?v=5";
-  private static final String CACHED_RESPONSE_FILE_NAME = "translations.v5.cache";
+  private static final String WEB_SERVICE_ENDPOINT = "translations.v5.json";
+  private static final String CACHED_RESPONSE_FILE_NAME = "translations.v5f.cache";
 
   private final Context appContext;
   private final OkHttpClient okHttpClient;
