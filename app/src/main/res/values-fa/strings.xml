@@ -99,6 +99,8 @@
   <string name="remove_button">حذف</string>
   <string name="dialog_ok">تأیید</string>
 
+  <string name="see_tafseer_of_verse">تفسیر این آیه همراه تفسیر آیه %d آمده است (برای باز شدن این‌جا را بفشارید).</string>
+
   <!-- translation updates -->
   <string name="update_available">به‌روزرسانی موجود است</string>
   <string name="translation_updates_available">برای برخی از ترجمه‌ها به‌روزرسانی موجود است. مایل‌اید به صفحه ترجمه‌ها بروید؟</string>
@@ -180,6 +182,8 @@
   <!-- tag dialog -->
   <string name="tag_dlg_title">برچسب</string>
   <string name="tag_name">نام</string>
+  <string name="tag_blank_tag_error">برچسب نمی‌تواند خالی باشد!</string>
+  <string name="tag_duplicate_tag_error">این برچسب تکراری است!</string>
 
   <!-- bookmark & tag list -->
   <string name="bookmarks_list_empty">نشانکی وجود ندارد</string>
@@ -191,6 +195,7 @@
   <string name="about_quranicaudio_summary">تلاوت‌های قرآنی (بی‌وقفه)</string>
   <string name="about_quran_ksu">پروژه مصحف الکترونیکی</string>
   <string name="about_quran_ksu_summary">پروژه مصحف الکترونیکی در دانشگاه ملک سعود منبع تفاسیر عربی و برخی ترجمه‌هاست.</string>
+  <string name="about_furqan_summary">متن مصحف عثمانی و تفاسیر عربی</string>
   <string name="about_tanzil_summary">بسیاری از ترجمه‌ها</string>
   <string name="about_noorhidayat_summary">قلم نور حرا و ترجمه مفتی تقی</string>
   <string name="about_open_source">پروژه‌های متن‌باز</string>
@@ -243,8 +248,13 @@
   <string name="prefs_import_title">درون‌برد</string>
   <string name="prefs_import_summary">درون‌برد نشانک‌ها و برچسب‌ها</string>
   <string name="prefs_export_summary">برون‌بُرد نشانک‌ها و برچسب‌ها</string>
+  <string name="prefs_page_type_title">نوع چاپ مصحف (آزمایشی)</string>
+  <string name="prefs_page_type_summary">انتخاب نوع صفحات</string>
   <string name="prefs_export_title">برون‌بُرد</string>
   <string name="prefs_new_background_title">پس‌زمینه جدید</string>
+  <string name="prefs_immersive_in_portrait_title">نمایش تمام‌صفحه</string>
+  <string name="prefs_immersive_in_portrait_summary_enabled">حتی در حالت عمودی</string>
+  <string name="prefs_immersive_in_portrait_summary_disabled">تنها در حالت افقی</string>
   <string name="prefs_highlight_bookmarks_summary">برجسته‌سازی آیه‌های نشانکدار</string>
   <string name="prefs_highlight_bookmarks_title">برجسته‌سازی نشانک‌ها</string>
   <string name="prefs_no_enough_space_to_move_files">فضای کافی برای جابجایی فایل‌های برنامه وجود ندارد</string>
@@ -287,4 +297,8 @@
     <item>سه بار</item>
     <item>بی‌پایان</item>
   </string-array>
+
+  <string name="playback_prompt_title">آغاز پخش از:</string>
+  <string name="starting_page_label">سر صفحه</string>
+
 </resources>
